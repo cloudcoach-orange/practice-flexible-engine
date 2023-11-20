@@ -5,8 +5,8 @@
 export OS_AUTH_URL=https://iam.eu-west-0.prod-cloud-ocb.orange-business.com/v3
 
 # Domain and Projet ID of the tenant, you can retrieve it from console > top right user connected > My Credential
-export OS_USER_DOMAIN_ID=689f7d4xxxe545ecb2791f4cfbb94f58
-export OS_PROJECT_ID=21aaadf517xxxbe3b485771e26d6d231
+export OS_USER_DOMAIN_ID= # Account ID
+export OS_PROJECT_ID=     # Project ID of eu-west-0_stud0x
 export OS_PROJECT_NAME=eu-west-0_stud0X
 
 # Region should be same of Auth url
@@ -15,9 +15,9 @@ export OS_REGION_NAME="eu-west-0"
 # User/password (from my credential session too)
 export OS_USERNAME=user.name
 
-export S3_ACCESS_KEY_ID=689f7d4xxxe545ecb
-export S3_SECRET_ACCESS_KEY=e3b48adf517xxxbe3b485771e26dab31
-
+# Global Training AccessKey / SecretKey
+export S3_ACCESS_KEY_ID=     # AK
+export S3_SECRET_ACCESS_KEY= # SK
 
 # get password by typing with uncomment next 2 lines and comment 3rd one. Or put your password (/!\less safe)
 echo "Please enter your OpenStack Password: "
@@ -34,3 +34,4 @@ export OS_NETWORK_API_VERSION=2
 export TF_VAR_USERNAME=$OS_USERNAME
 export TF_VAR_PASSWORD=$OS_PASSWORD
 export TF_VAR_DOMAIN_ID=$OS_USER_DOMAIN_ID
+
